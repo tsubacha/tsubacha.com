@@ -1,0 +1,491 @@
+@charset "UTF-8";
+
+body {
+    margin: 0;
+    background-color: lightyellow;
+}
+
+
+#contents {
+    display: block;
+    margin-left: auto;
+    background-image: url(img/index-repeat-wall01.gif);
+    background-repeat: repeat-y;
+    background-position-x: center;
+    box-sizing: border-box;
+    margin: 0px auto;
+    background-size: contain;
+}
+
+#header-logo {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 4px dotted #f7931e;
+    margin-bottom: 30px;
+}
+
+
+
+/* --- factory enter start --- */
+
+#factory-enter {
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    background: url(img/factory-door-base01.gif) no-repeat;
+    position: relative;
+    background-size: contain;
+}
+
+#factory-close a {
+    display: inline-block;
+    position: absolute;
+}
+
+#factory-close a:hover {
+    background-color: transparent;
+}
+
+#factory-close img {
+    max-width: 100%;
+}
+
+#factory-close a:hover img {
+    visibility: hidden;
+}
+
+
+
+
+
+/* --- factory enter end --- */
+
+
+/* --- three door enter start --- */
+
+.three-door {
+    margin-top: 40px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#clearfix {
+    clear: both;
+}
+
+
+
+
+
+/*  piggy enter start */
+
+#piggy-enter {
+    float: left;
+    background: url("img/piggy-door-open.gif") no-repeat;
+    background-size: contain;
+}
+
+#piggy-enter a {
+    display: inline-block;
+}
+
+#piggy-enter a:hover {
+    background-color: transparent;
+}
+
+#piggy-enter img {
+    max-width: 100%;
+}
+
+#piggy-enter a:hover img {
+    visibility: hidden;
+}
+
+
+
+
+
+/* piggy enter end */
+
+
+/* popberry enter start */
+
+#popberry-enter {
+    float: left;
+    background: url("img/popberry-door-open.gif") no-repeat;
+    background-size: contain;
+}
+
+#popberry-enter a {
+    display: inline-block;
+}
+
+#popberry-enter a:hover {
+    background-color: transparent;
+    /* IE6対応 */
+}
+
+#popberry-enter img {
+    max-width: 100%;
+}
+
+#popberry-enter a:hover img {
+    visibility: hidden;
+}
+
+
+
+
+/* popberry enter end */
+
+
+/* nina enter start */
+
+#nina-enter {
+    float: left;
+    background: url("img/nina-door-open.gif") no-repeat;
+    background-size: contain;
+}
+
+#nina-enter a {
+    display: inline-block;
+}
+
+#nina-enter a:hover {
+    background-color: transparent;
+}
+
+#nina-enter img {
+    max-width: 100%;
+}
+
+#nina-enter a:hover img {
+    visibility: hidden;
+}
+
+
+
+
+
+/* nina enter end */
+
+
+/* --- three door enter end --- */
+
+@media screen and (min-width: 1200px) {
+    #contents {
+        width: 1200px;
+        padding: 20px 0px 20px 20px;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    
+    #next-page-enter {
+        width: 516px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .next-allow {
+        width: 34px;
+        margin-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        position: absolute;
+        bottom: 0;
+        left: 35%;
+    }
+
+    #before-page-enter {
+        width: 311px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 30px;
+    }
+
+    .before-allow {
+        width: 34px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #factory-logo {
+        width: 311px;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+    }
+    #piggy-logo {
+        width: 107px;
+        float: left;
+        margin-right: 84px;
+        position: relative;
+        height: 120px;
+    }
+
+    #popberry-logo {
+        width: 129px;
+        float: left;
+        margin-right: 39px;
+        height: 120px;
+        box-sizing: border-box;
+        padding-top: 20px;
+        position: relative;
+    }
+
+    #nina-logo {
+        width: 157px;
+        float: left;
+        padding-top: 20px;
+        position: relative;
+        height: 120px;
+        box-sizing: border-box;
+    }
+    #factory-enter {
+        width: 544px;
+        height: 406px;
+    }
+    #factory-close a {
+        left: 208px;
+        height: auto;
+        bottom: -2px;
+    }
+    #piggy-enter {
+        float: left;
+        margin-right: 68px;
+        margin-top: 31px;
+        background: url("img/piggy-door-open.gif") no-repeat;
+        background-size: contain;
+    }
+    #popberry-enter {
+        float: left;
+        background-size: contain;
+        background: url("img/popberry-door-open.gif") no-repeat;
+        height: auto;
+        margin-right: 68px;
+        width: 172px;
+    }
+    #nina-enter {
+        float: left;
+        background: url(img/nina-door-open.gif) no-repeat;
+        background-size: contain;
+        margin-top: 31px;
+    }
+    .three-door {
+        width: 571px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 867px) {
+    #piggy-logo {
+        display: none;
+    }
+
+    #popberry-logo {
+        display: none;
+    }
+
+    #nina-logo {
+        display: none;
+    }
+    #factory-logo {
+        display: none;
+    }
+}
+@media screen and (min-width: 375px) and (max-width: 768px) {
+    #factory-enter {
+        width: 350px;
+        height: 262px;
+    }
+
+    .three-door {
+        width: 335px;
+    }
+    #piggy-enter {
+        width: 100px;
+        margin-right: 10px;
+    }
+    #popberry-enter {
+        width: 117px;
+        margin-right: 10px;
+    }
+    #nina-enter {
+        width: 98px;
+    }
+    #factory-close img {
+        max-width: 100%;
+    }
+    #factory-close a {
+        left: 135px;
+        width: 81px;
+        height: auto;
+        top: 52px;
+    }
+}
+@media screen and (max-width: 374px) and (min-width: 320px) {
+    #factory-enter {
+        width: 300px;
+        height: 225px;
+    }
+    .three-door {
+        width: 287px;
+    }
+    #factory-close a {
+        left: 115px;
+        width: 70px;
+        height: auto;
+        top: 45px;
+    }
+    #piggy-enter {
+        width: 85px;
+        margin-right: 10px;
+    }
+    #popberry-enter {
+        width: 99px;
+        margin-right: 10px;
+    }
+    #nina-enter {
+        width: 83px;
+    }
+}
+
+/* page slide */
+body {
+    position: relative;
+    overflow: hidden;
+    visibility: hidden;
+}
+ 
+/* #container
+--------------------------- */
+#container {
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+}
+ 
+/* .stageBase
+--------------------------- */
+.stageBase {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.stageBase .fieldWrap {
+    padding: 0px 0 0 0;
+    text-align: center;
+}
+
+#pageNav {
+    top: 0;
+    right: 25px;
+    width: 15px;
+    text-align: center;
+    position: fixed;
+    z-index: 2;
+}
+#pageNav ul {
+    width: 15px;
+    display: block;
+}
+#pageNav ul li {
+    padding-bottom: 5px;
+    width: 15px;
+    height: 15px;
+    display: block;
+    overflow: hidden;
+}
+#pageNav ul li a {
+    width: 15px;
+    height: 15px;
+    background: transparent url(../img/nav.png) no-repeat center center;
+    display: block;
+}
+#pageNav ul li.activeStage a {
+    background: transparent url(../img/nav_acv.png) no-repeat center center;
+}
+#pageDown {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    position: fixed;
+    overflow: hidden;
+    z-index: 3;
+}
+#pageDown a {
+    margin: 0 auto;
+    width: 30px;
+    height: 30px;
+    background: transparent url(../img/next_arw.png) no-repeat center center;
+    display: block;
+}
+/* .stageSlide
+--------------------------- */
+.stageSlide {
+    position: relative;
+    overflow: hidden;
+    visibility: hidden;
+}
+.stageSlide .slideWrap {
+    top: 0;
+    left: 0;
+    position: absolute;
+    overflow: hidden;
+}
+.stageSlide .slideWrap:before,
+.stageSlide .slideWrap:after {
+    content: " ";
+    display: table;
+}
+.stageSlide .slideWrap:after {clear: both;}
+.stageSlide .slideWrap {*zoom: 1;}
+ 
+.stageSlide .slidePanel {
+    float: left;
+    overflow: hidden;
+}
+ 
+.stageSlide .sdPrev,
+.stageSlide .sdNext {
+    margin-top: -25px;
+    top: 50%;
+    width: 50px;
+    height: 50px;
+    display: block;
+    position: absolute;
+    z-index: 99;
+}
+.stageSlide .sdPrev {
+    left: 80px;
+    background: transparent url(../img/slide_prev.png) no-repeat left top;
+}
+.stageSlide .sdNext {
+    right: 80px;
+    background: transparent url(../img/slide_next.png) no-repeat left top;
+}
+ 
+.stageSlide .slideNav {
+    bottom: 70px;
+    left: 0;
+    width: 100%;
+    height: 15px;
+    text-align: center;
+    position: absolute;
+    z-index: 98;
+}
+.stageSlide .slideNav a {
+    margin: 0 5px;
+    width: 15px;
+    height: 15px;
+    background: transparent url(../img/nav.png) no-repeat center center;
+    display: inline-block;
+    overflow: hidden;
+}
+.stageSlide .slideNav a.pnActive {
+    background: transparent url(../img/nav_acv.png) no-repeat center center;
+}
